@@ -1,0 +1,29 @@
+{
+  "name": "pollenium-sundrop",
+  "version": "0.0.0",
+  "description": "",
+  "main": "node/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pollenium/sundrop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pollenium/sundrop/issues"
+  },
+  "homepage": "https://github.com/pollenium/sundrop#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "pollenium-snowdrop": "^2.0.1"
+  }
+}
